@@ -1,5 +1,4 @@
--- a script that creates a trigger that decreases
---the quantity of an item after adding a new order
+-- Creates a trigger that decreases the quantity
 
 DROP TRIGGER IF EXISTS decrease_item;
 DELIMITER $$
